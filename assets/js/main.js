@@ -121,3 +121,36 @@
 		});
 
 })(jQuery);
+
+
+
+
+//modal
+
+
+let modal = document.querySelector('.modal-background');
+
+
+abrir.addEventListener('click', openModal);
+
+abrir.addEventListener('click', function(){
+	modal.classList.add('show');
+});
+
+function openModal(){
+	modal.style.display = 'block'
+}
+
+var cerrar = document.getElementsByClassName('cerrar')[0];
+
+cerrar.addEventListener('click', closeModal);
+
+function closeModal(){
+	modal.style.display = 'none'
+}
+
+function outsideClick(e){
+	if(e.target == modal){
+	modal.style.display = 'none';
+	}
+}
