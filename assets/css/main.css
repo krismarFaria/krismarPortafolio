@@ -94,6 +94,7 @@ video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	
 }
 
 article,
@@ -117,6 +118,7 @@ body {
 ol,
 ul {
 	list-style: none;
+	
 }
 
 blockquote,
@@ -4906,6 +4908,11 @@ cursor: pointer;
 	right: 35px;
 }
 
+
+
+/*css e Ionic/Angular */
+
+
 .skill{
 	padding-top: 20px ;
 	padding-left: 20px;
@@ -4940,16 +4947,13 @@ inset -6px -6px 6px -1px rgba(255, 255, 255, 0.7),
 ;
 }
 
-
-
-
-circle{
+.circle2{
 	fill: none;
 	stroke: url(#GradientColor);
 	stroke-width: 11px;
 	stroke-dasharray: 472;
 	stroke-dashoffset: 472;
-	animation: anim 2s linear forwards ;
+	animation: css 2s linear forwards ;
 }
 
 svg{
@@ -4958,67 +4962,91 @@ svg{
 	left: 0;
 }
 
-@keyframes anim{
+
+
+@keyframes css{
 	100%{
-		stroke-dashoffset: 165;
+		stroke-dashoffset: 246;
+	}
+}
+
+/* HTML */
+
+.circle1{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 11px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	animation: html 2s linear forwards ;
+}
+
+
+@keyframes html{
+	100%{
+		stroke-dashoffset: 270;
 	}
 }
 
 
 
+/* JS y TS */
 
-
-/*SkillModal*/
-
-
-.skill2{
-	padding-top: 20px ;
-	padding-left: 20px;
-	width: 125px;
-	height: 125px;
-	/* background: cornflowerblue; */
-	position: relative;
-}
-
-.outer2{
-	height: 120px;
-	width: 120px;
-	border-radius: 50%;
-	padding: 10px;
-	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-	         -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
-	;
-}
-
-.inner2{
-height: 100px;
-width: 100px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-inset -6px -6px 6px -1px rgba(255, 255, 255, 0.7),
--0.5px -0.5px 0px rgba(255, 255, 255, 1),
-0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-0px 12px 10px -10px rgba(0, 0, 0, 0.05)
-;
-}
-
-
-
-
-circle{
+.circle3{
 	fill: none;
 	stroke: url(#GradientColor);
 	stroke-width: 11px;
 	stroke-dasharray: 472;
 	stroke-dashoffset: 472;
-	animation: anim 2s linear forwards ;
+	animation: jsts 2s linear forwards ;
 }
 
-svg{
-	position: absolute;
-	top: 0;
-	left: 0;
+
+@keyframes jsts{
+	100%{
+		stroke-dashoffset: 340;
+	}
+}
+
+
+/* React React Native */
+
+.circle4{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 11px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	animation: rc 2s linear forwards ;
+}
+
+
+@keyframes rc{
+	100%{
+		stroke-dashoffset: 430;
+	}
+}
+
+
+/* Firebase */
+
+.circle5{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 11px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	animation: fb 2s linear forwards ;
+}
+
+
+@keyframes fb{
+	100%{
+		stroke-dashoffset: 300;
+	}
+}
+
+.iconos{
+	font-size: 120px;
+    text-align: center;
 }
