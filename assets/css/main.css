@@ -4904,25 +4904,27 @@ cursor: pointer;
 
 
 .skill{
-	width: 160px;
-	height: 160px;
+	padding-top: 20px ;
+	padding-left: 20px;
+	width: 125px;
+	height: 125px;
 	/* background: cornflowerblue; */
 	position: relative;
 }
 
 .outer{
-	height: 160px;
-	width: 160px;
+	height: 120px;
+	width: 120px;
 	border-radius: 50%;
-	padding: 20px;
+	padding: 10px;
 	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
 	         -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
 	;
 }
 
 .inner{
-height: 120px;
-width: 120px;
+height: 100px;
+width: 100px;
 border-radius: 50%;
 display: flex;
 align-items: center;
@@ -4935,15 +4937,16 @@ inset -6px -6px 6px -1px rgba(255, 255, 255, 0.7),
 ;
 }
 
-#number{
+#number #number1{
 	font-weight: 600;
 	color: #555;
 }
 
+
 circle{
 	fill: none;
 	stroke: url(#GradientColor);
-	stroke-width: 20px;
+	stroke-width: 11px;
 	stroke-dasharray: 472;
 	stroke-dashoffset: 472;
 	animation: anim 2s linear forwards ;
