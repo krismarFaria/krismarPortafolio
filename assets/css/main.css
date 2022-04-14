@@ -4291,11 +4291,22 @@ color: rgb(134, 208, 252);
 }
 
 .card-body{
-	padding: 20px;
+	padding: 10px;
+	height: 120px;
 }
 
-.card-text{
+.title-card{
+	font-weight: bold;
 	position: relative;
 	bottom: 30px;
-	font-weight: bold;
+}
+
+.text-card{
+	position: relative;
+	bottom: 60px;
+}
+
+.btn-card{
+	position: relative;
+	bottom: 60px;
 }
