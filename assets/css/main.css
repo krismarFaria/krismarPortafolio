@@ -4877,19 +4877,17 @@ background-color: #269aff;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	padding: 50px;
-	padding-left: 150px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+    padding-right: 15px;
 	background: #ffffff;
 	border-radius: 5px;
 	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.05);
 }
 
-.modal-content{
-	position: relative;
-	padding-top: 50px;
-}
 
-.modal-content .cerrar{
+ .cerrar{
+	 font-size: 30px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -4897,11 +4895,16 @@ background-color: #269aff;
 	font-weight: 700;
 }
 
-.modal-content .cerrar:hover{
+.cerrar:hover{
 transform: translateY(-2px);
 cursor: pointer;
 }
 
+.majorheader{
+	position: relative;
+	bottom: 20px;
+	right: 35px;
+}
 
 .skill{
 	padding-top: 20px ;
@@ -4937,10 +4940,7 @@ inset -6px -6px 6px -1px rgba(255, 255, 255, 0.7),
 ;
 }
 
-#number #number1{
-	font-weight: 600;
-	color: #555;
-}
+
 
 
 circle{
@@ -4962,4 +4962,63 @@ svg{
 	100%{
 		stroke-dashoffset: 165;
 	}
+}
+
+
+
+
+
+/*SkillModal*/
+
+
+.skill2{
+	padding-top: 20px ;
+	padding-left: 20px;
+	width: 125px;
+	height: 125px;
+	/* background: cornflowerblue; */
+	position: relative;
+}
+
+.outer2{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+	         -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
+	;
+}
+
+.inner2{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+inset -6px -6px 6px -1px rgba(255, 255, 255, 0.7),
+-0.5px -0.5px 0px rgba(255, 255, 255, 1),
+0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+0px 12px 10px -10px rgba(0, 0, 0, 0.05)
+;
+}
+
+
+
+
+circle{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 11px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	animation: anim 2s linear forwards ;
+}
+
+svg{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
