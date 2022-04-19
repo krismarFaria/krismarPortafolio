@@ -1978,6 +1978,7 @@ button,
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
+
 }
 
 input[type="submit"].icon,
@@ -2061,7 +2062,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-	background-color: rgba(255, 255, 255, 0.075);
+	background-color: rgba(143, 16, 16, 0.075);
 }
 
 input[type="submit"]:active,
@@ -4106,6 +4107,8 @@ background-color: #269aff;
 	right: 0;
 	color: #5a10e6;
 	font-weight: 700;
+	padding-right: 15px;
+	
 }
 
 .cerrar:hover{
@@ -4291,8 +4294,9 @@ color: rgb(134, 208, 252);
 }
 
 .card-body{
+	border: none;
 	padding: 10px;
-	height: 120px;
+	height: 165px;
 }
 
 .title-card{
@@ -4303,11 +4307,15 @@ color: rgb(134, 208, 252);
 
 .text-card{
 	position: relative;
-	bottom: 60px;
+	bottom: 40px;
 }
 
 .btn-card{
 	position: relative;
-	bottom: 60px;
+	bottom: 10px;
 }
 
+.title{
+	font-weight: 700;
+	font-size: 20px;
+}
